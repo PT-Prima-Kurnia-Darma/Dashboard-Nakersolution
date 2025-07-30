@@ -97,5 +97,5 @@ export const downloadLaporanPubt = createDownloadFunction('/pubt/laporan/downloa
 export const downloadBapPubt = createDownloadFunction('/pubt/bap/download');
 export const downloadLaporanMotorDiesel = createDownloadFunction('/ptp/motorDiesel/laporan/download');
 export const downloadBapMotorDiesel = createDownloadFunction('/ptp/motorDiesel/bap/download');
-export const downloadLaporanPtpMesin = createDownloadFunction('/ptp/mesin/bap/download');
-export const downloadBapPtpMesin = createDownloadFunction('/ptp/mesin/laporan/download');
+export const downloadLaporanPtpMesin = createDownloadFunction('/ptp/mesin/laporan/download');
+export const downloadBapPtpMesin = createDownloadFunction('/ptp/mesin/bap/download');

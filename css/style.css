@@ -67,8 +67,9 @@ body::before {
 .login-card-logo {
     display: block;
     margin: 0 auto 1.5rem auto;
-    width: 125px;
-    height: 125px;
+    max-width: 191px;
+    width: 100%;
+    height: auto;
 }
 
 .login-naker-logo {

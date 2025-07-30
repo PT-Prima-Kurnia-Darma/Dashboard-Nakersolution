@@ -49,10 +49,12 @@ document.addEventListener('DOMContentLoaded', () => {
         'instalasi proteksi kebakaran-berita acara dan pemeriksaan pengujian': api.downloadBapProteksiKebakaran,
         'pubt-laporan': api.downloadLaporanPubt,
         'pubt-berita acara dan pemeriksaan pengujian': api.downloadBapPubt,
+        'pesawat uap dan bejana tekan-laporan': api.downloadLaporanPubt,
+        'pesawat uap dan bejana tekan-berita acara dan pemeriksaan pengujian': api.downloadBapPubt,
         'motor diesel-laporan': api.downloadLaporanMotorDiesel,
         'motor diesel-berita acara dan pemeriksaan pengujian': api.downloadBapMotorDiesel,
-        'ptp mesin-laporan': api.downloadLaporanPtpMesin,
-        'ptp mesin-berita acara dan pemeriksaan pengujian': api.downloadBapPtpMesin,
+        'mesin-laporan': api.downloadLaporanPtpMesin,
+        'mesin-berita acara dan pemeriksaan pengujian': api.downloadBapPtpMesin,
     };
 
     function showStatus(message, isError = false) {
